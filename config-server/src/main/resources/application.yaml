@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/your-username/your-config-repo
+          uri: https://github.com/dasariravi145/Vyxentra-Systems
           default-label: main
           clone-on-start: true
 
@@ -27,3 +27,7 @@ logging:
     org.springframework.security: INFO
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+config:
+  Server:
+    username: config-user
+    password: config123
